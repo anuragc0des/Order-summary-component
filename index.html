@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | Order summary card</title>
 
@@ -26,34 +27,33 @@
     </style>
   </head>
   <body>
-    <div class="background">
-      <img src="./images/pattern-background-desktop.svg" alt="bg-img" />
-    </div>
     <div class="container">
       <div class="img">
         <img src="./images/illustration-hero.svg" alt="hero-img" />
       </div>
-      <h3>Order Summary</h3>
+      <div class="content">
+        <h3>Order Summary</h3>
 
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
 
-      <div class="price">
-        <div class="plan">
-          <img src="./images/icon-music.svg" alt="music-icon" />
-          <p>
-            Annual Plan <br />
-            <span>$59.99/year</span>
-          </p>
+        <div class="price">
+          <div class="plan">
+            <img src="./images/icon-music.svg" alt="music-icon" />
+            <p>
+              Annual Plan <br />
+              <span>$59.99/year</span>
+            </p>
+          </div>
+
+          <a href="#">Change</a>
         </div>
 
-        <a href="#">Change</a>
+        <a href="#" class="payment-btn">Proceed to Payment</a>
+        <a href="#" class="cancel-btn">Cancel Order</a>
       </div>
-
-      <a href="#">Proceed to Payment</a>
-      <a href="#">Cancel Order</a>
     </div>
 
     <div class="attribution">
